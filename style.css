@@ -1,0 +1,108 @@
+body{
+    background-color: #add8e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:auto;
+    margin: 25px;
+    
+    
+}
+
+#background-img1{
+    position: fixed;
+    overflow:hidden;
+    left: -20px;
+    top: -100px;
+    
+   
+}
+#background-img2{
+    position: fixed;
+    overflow:hidden;
+    right: -150px;
+    top: -20px;
+}
+#background-img3{
+    position: fixed;
+    overflow:hidden;
+    left: -110px;
+    bottom: -100px;
+}
+#background-img4{
+    position: fixed;
+    overflow:hidden;
+    right: -70px;
+    bottom: -70px;
+}
+
+h3{
+    color: #0a1261;
+    text-align: center;
+}
+
+.line1{ text-align: center;
+       ;
+    }
+
+
+
+#header{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#form{
+    background: white;
+    padding: 10px 40px;
+    width: 370px;
+    margin: auto;
+    border-radius: 25px 25px 25px 0px;
+       
+}
+
+form p{
+    margin-top: 40px ;
+}
+
+#footer{
+    text-align: center;
+    color: white;
+    font-size: small;
+    
+}
+
+.details{
+    background-color: #cce2f0;
+    width: 350px;
+    height: 30px;
+    border-radius: 3px;
+    border-style: hidden;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.option{
+    background-color: white;
+    padding: 16px;
+    margin-top: 10px
+    
+}
+    
+.submit{
+    background-color: #0a1261;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    width: 360px;
+    height: 50px;
+    border-radius: 10px 10px 10px 0px;
+    border-style: hidden;
+    
+}
