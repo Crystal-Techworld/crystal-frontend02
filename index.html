@@ -1,17 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html land="en">
 <head>
-    
-    <title>The Better Way to Save & Invest Online - PiggyVest</title>
+        
+        <link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>
-        Welcome to PiggyVest
-    </h1>
+        <div id="background-img1"> <img src="images/data1.png"> </div>
+        <div id="background-img2"> <img src="images/data2.png"> </div>
+        <div id="background-img3"> <img src="images/data3.png"> </div>
+        <div id="background-img4"> <img src="images/last.png"> </div>
+         
+   <div id="header">
+         <p> <a href="index.html"> <img src="images/piggyvest-logo.0b78a8fa.svg"> </a> </p>
+   </div>
 
-    <a href="register.html"> Create a Free Account </a>
+        <div id="form">
+                <h3> Create a Secure Account</h3>
+                <p class="line1">Welcome to the future of Savings & Investment</p>
+                <form action="piggyvest.php/register">
+                        <p><label for="username"> Full Name </label>  
+                        <input class="details" type="text" name="username" id="username" placeholder="Full Name"> </input> </p>
+                        
+                        <p><label for="email"> Email Address </label>  
+                        <input class="details" type="text" name="email" id="email" placeholder="Email Address"> </input> </p>
+
+                        <p><label for="Phone Number"> Phone Number </label>  
+                        <input class="details" type="text" name="number" id="number" placeholder="Phone Number"> </input> </p>
+
+                        <p><label for="Password"> Password </label>  
+                        <input class="details"type="password" name="password" id="password" placeholder="Password"> </input></p>
+
+                        <p><label for="Code"> Referrer Phone or Promo Code (Optional) </label>  
+                        <input class="details"type="text" id="code" placeholder="Referrer Phone or Promo Code"> </input></p>
+                        
+                        <p><label for="how"> How Did You Hear About Us? (Optional) </label>  
+                        <select class="details" name="option"> </p>
+                                <option class="option" value="Click To Select">Click To Select</option>
+                                <option class="option" value="Facebook">Facebook</option>
+                                <option class="option" value="Twitter">Twitter</option>
+                                <option class="option" value="Friends/Family/Coworker Referral">Friends/Family/Coworker Referral</option>
+                                <option class="option" value="Google Search">Google Search</option>
+                                <option class="option" value="Google playstore">Google playstore</option>
+                                <option class="option" value="Online Blog">Online Blog</option>
+                                <option class="option" value="Local Newspaper">Local Newspaper</option>
+                                <option class="option" value="At an event">At an event</option>
+                                <option class="option" value="Other">Other</option>
+
+                        </select>
+                        <p> <input class="submit" type="submit" name="submit" value="CREATE ACCOUNT"> </p>
+                </form>
+        </div>        
+
+        <div id="footer">
+        <p> <a href="login.html"> Already have an account? Log In </a></p>
+        </div>
+
+
+
 
 
 </body>
+
+
+
 </html>
